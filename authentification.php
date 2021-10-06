@@ -10,7 +10,7 @@
 
     <h1>Bienvenu sur le site web de top sécurité.</h1>
 
-    <php>
+<?php
     $nom = $_GET['username']; 
     $pass = $_GET['password'];
 
@@ -26,7 +26,7 @@
              $auth="Mauvais mot de passe.";
 
     echo $auth;
-    </php>
+?>
 
     </body>
 </html>
